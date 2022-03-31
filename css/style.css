@@ -1,0 +1,639 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Myriad Pro;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+/* ===================Layout width ====================== */
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-sp{
+    width: 30.50%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+/* ============================Header part=================== */
+
+.header{
+    background-color: #223047;
+}
+.logo-part{
+    margin: 10px 0px;
+}
+.logo-part img{
+
+}
+.menu-part{
+    text-align: center;
+    
+}
+.menu-part ul{
+    list-style: none;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 17px;
+}
+.menu-part a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+.menu-part a:hover{
+    font-size: 20px;
+}
+.btn-part{
+    text-align: end;
+    margin: 10px 0px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #00fff0;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: yellow;
+}
+.header-btn{
+    height: 35px;
+}
+.bar{
+    text-align: left;
+}
+.bar i{
+    font-size: 25px;
+    padding-top: 13px;
+    padding-left: 7px;
+}
+.bar a{
+    color: #fff;
+}
+
+/* =============================Hero part========================== */
+
+.hero{
+    background-color: #223047;
+    height: 95vh;
+    margin-top: 0.5px;
+
+}
+.hero-writing-part{
+    padding-top: 180px;
+    padding-left: 150px;
+    color: #ffffff;
+}
+.hero-heading{
+    width: 60%;
+    padding-bottom: 50px;
+    font-size: 20.43pt;
+}
+.pg{
+    width: 85%;
+    padding-bottom: 50px;
+    color: #97a4be;
+}
+
+.hero-button{
+    width: 160px;
+    height: 35px;
+}
+.hero-button-2{
+    height: 35px;
+    background-color: #223047;
+    color: #fff;
+    margin-left: 10px;
+    border: 1px solid #fff;
+    border-left: none;
+    transition: 0.5s ease-in-out;
+}
+.hero-button-2:hover{
+    background-color: lightblue;
+    color: blue;
+}
+.hero-image-part{
+    padding-top: 110px;
+    padding-left: 150px;
+}
+/* ========================2nd Section part================= */
+
+.image-section{
+    padding-bottom: 120px;
+}
+.h2{
+    font-family: Myriad Pro;
+    font-size: 20pt;
+}
+.h3{
+    font-family: Myriad Pro;
+    font-size: 15pt;
+    padding-bottom: 20px;
+}
+.image-4 p{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-family: Myriad Pro;
+    color: #5f76a7;
+}
+.heading-2{
+    padding-top: 170px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    color: #233148;
+}
+.underline{
+    display: block;
+    width: 10%;
+    border-bottom: 5px solid #44fff4;
+    margin: auto;
+    padding-top: 30px;
+}
+.section-image-part{
+    text-align: center;
+    padding-top: 60px;
+}
+.image-4{
+    width: 21%;
+    float: left;
+    height: 300px;
+    margin: 0px 1.5%;
+    padding-top: 30px;
+    box-shadow: 1px 1px 3px black;
+    transition: 0.4s ease-in-out;
+}
+.image-4:hover{
+    width: 23%;
+    float: left;
+    height: 300px;
+    /* margin: 0px 1.5%; */
+    padding-top: 30px;
+    box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    cursor: pointer;
+    /* background-color: aqua; */
+    background-color: rgb(99, 230, 13);
+}
+.image-4:hover p{
+    color: #000;
+}
+.image-4:hover h3{
+    color: blue;
+}
+
+#section-3{
+
+}
+.content{
+
+}
+.content-1{
+    background-color: #f5f6fa;
+}
+.image-sec-3{
+
+}
+.image-sec-3 img{
+    width: 100%;
+}
+.sec-writing-part{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+/* .sec-writing-part h2{
+
+} */
+
+.sec-2 {
+
+}
+
+.heading-3rd-section{
+    width: 50%;
+    padding-bottom: 50px;
+
+}
+.pg-3rd-section{
+    line-height: 25px;
+}
+
+
+/* =================sec 2================= */
+.sec-2{
+
+} 
+.heading-4th-sec{
+   margin-left: 280px;
+}
+.pg-sec-4th{
+    text-align: right;
+}
+.sec-3rd-btn{
+    margin-left: 330px;
+}
+.image-sec-4th{
+
+}
+.image-sec-4th img{
+    padding-top: 50px;
+}
+
+/* =====================section 5====================== */
+.section-5{
+    width: 100%;
+    float: left;
+}
+.section-5-image img{
+    width: 80%;
+    top: 120px;
+    position: relative;
+
+}
+
+.extra-row{
+    border: 1px solid ;
+    box-shadow: 1px 1px 2px, -1px -1px 2px;
+    padding: 10px;
+    margin-top: 30px;
+    transition: 0.5s ease-in-out;
+}
+.extra-row:hover{
+    background-color: yellow;
+    cursor: pointer;
+    height: 80px;
+    padding-top: 20px;
+}
+.extra-row-2:hover{
+    height: 140px;
+    padding-top: 30px;
+}
+.extra-row:hover h3{
+    color: rgb(17, 17, 192);
+}
+.extra-row:hover p{
+    color: green;
+}
+
+
+.extra-row-2 {
+    padding-bottom: 30px;
+    background-color: aqua;
+}
+.img-col{
+    padding: 10px;
+}
+.img-col img{
+    
+}
+
+.step{
+    padding: 10px 5px;
+    /* width: 100%;
+    float: left; */
+}
+
+
+
+/* ==================section 6======================= */
+
+#section-6{
+    margin-top: 0px;
+}
+
+.sec-6-contant-part{
+    background-color: #f5f6fa;
+    padding-top: 100px;
+}
+.sec-6-box-part{
+    padding-left: 100px;
+}
+.box-1{
+    width: 20%;
+    height: 302px;
+    background-color: #fff;
+    margin-top: 15em;
+    float: left;
+    border-right: none;
+    box-shadow: -1px 0px 1px 1px;
+    
+}
+.box-2{
+    width: 45%;
+    height: 430px;
+    background-color: #403340;
+    float: left;
+    margin-top: 7em;
+   
+}
+.box-3{
+    width: 20%;
+    height: 285px;
+    background-color: #fff;
+    float: left;
+    box-shadow: 1px 0px 1px 1px;
+    border-left: none;
+    margin-top: 16em;
+}
+
+
+
+
+.sec-6-writing-part h2{
+    padding-top: 100px;
+    padding-left: 260px;
+    padding-bottom: 40px;
+}
+.sec-6-writing-part h4{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 9px;
+    cursor: pointer;
+}
+.icon-sec-6{
+    padding-top: 10px;
+    padding-left: 370px;
+}
+.icon-2-sec-6{
+    padding-top: 30px;
+}
+
+.sec-6-h5{
+    padding-top: 50px;
+    text-align: end;
+    width: 90%;
+    padding-right: 60px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom: 00px;
+}
+/* ======================section 7================== */
+#section-7{
+    width: 100%;
+    /* height: 50vh; */
+    float: left;
+    padding: 150px 0px;
+    text-align: center;
+    background-color: #223047;
+    color: aqua;
+    align-items: center;
+}
+
+.sec-7-content i{
+    font-size: 70px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.sec-7-content h4{
+    font-size: Myriad Pro;
+    letter-spacing: 2px;
+    color: #d5dae0;
+    padding-bottom: 50px;
+}
+.sec-7-content p{
+    width: 60%;
+    margin: auto;
+    line-height: 30px;
+}
+
+/* ====================section 8 ======================== */
+#section-8{
+    width: 100%;
+    float: left;
+}
+
+.sec-8-write{
+    padding: 200px 0px;
+    text-align: center;
+}
+
+.sec-8-h2{
+    color: #233148;
+    padding-bottom: 30px;
+}
+.sec-8-write p{
+    font-size: 17px;
+    padding-bottom: 50px;
+}
+
+ .button{
+    width: 160px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    width: 170px;
+    height: 38px;
+    background-color: blue;
+    color: #fff;
+}
+
+/* ======================section-9 ==================== */
+.section-9{
+    padding: 150px;
+    background-color: #223047;
+    color: #00fff1;
+    text-align: center;
+}
+.sec-9-write p{
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+}
+
+/* ==================section 10 ================== */
+
+.section-10{
+    background-color: #f5f6fa;
+    padding: 150px 100px 0px 150px;
+
+    
+}
+.sec-10-img{
+    
+}
+.sec-10-write{
+    padding-top: 120px;
+}
+.sec-10-h2{
+    padding-bottom: 40px;
+    color: #233148;
+    font-size: 40px;
+}
+.sec-10-pg{
+    color: #6e85b8;
+    line-height: 25px;
+}
+.sec-10-write img{
+    margin: 0px 5%;
+    cursor: pointer;
+}
+
+
+.sec-10-btn-part{
+    text-align: center;
+    top: -15px;
+    position: relative;
+}
+
+.sec-10-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #043c3f;
+    
+}
+.sec-10-btn:hover{
+    background-color: green;
+    color: #fff;
+    font-size: 14px;
+    width: 210;
+    height: 45px;
+}
+
+/* ==========================section 11 ==================== */
+
+
+.section-11{
+    padding: 100px 100px;
+}
+.sec-1p a{
+    display: flow-root;
+    text-decoration: none;
+    padding-top: 5px;
+    width: 10px;
+}
+.sec-1p{
+    margin: 0px 1.5%;
+}
+.sec-1p h3{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+
+/* ==================section-12=================== */
+.section-12{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.sec-12-pg{
+    padding-top: 15px;
+    padding-bottom: 70px;
+    color: #97a4be;
+}
+
+.section-12 input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    background-color: #c7cde6;
+    font-size: 17px;
+    padding-left: 25px;
+    color: blue;
+    font-weight: 400;
+}
+.btn-12{
+    padding-top: 20px];
+}
+
+.sec-12-btn{
+    width: 150px;
+    height: 38px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #c7180c;
+    cursor: pointer;
+    color: yellow;
+}
+.sec-12-btn:active{
+    background-color: yellow;
+    color: #000;
+}
+
+/* =====================footer part==================== */
+.footer{
+    padding: 25px 50px;
+    background-color: #223047;
+}
+.sec-footer-write{
+    font-size: 20px;
+    color: #fff;
+}
+.icon-footer{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 20px;
+    padding-left: 600px;
+    cursor: pointer;
+}
